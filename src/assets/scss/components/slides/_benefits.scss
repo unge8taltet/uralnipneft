@@ -1,0 +1,54 @@
+.slide-benefits {
+  background-color: #EE7326;
+  background-image: url("@images/benefits.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+
+  &__center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 66px;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 130px 90px;
+  }
+
+  &__top {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 114%;
+    color: #131313;
+
+  }
+
+  &__documentation {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 123%;
+    color: #131313;
+  }
+
+  &__text {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 136%;
+
+    @include media-down(xl){
+      font-size: 18px;
+      line-height: 139%;
+    }
+  }
+}

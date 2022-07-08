@@ -1,0 +1,100 @@
+.slide-contact {
+  background-image: url("@images/contacts.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 114%;
+    color: #131313;
+    margin-bottom: 235px;
+    margin-top: 130px;
+
+    @include media-down(xl){
+      font-size: 60px;
+      line-height: 133%;
+    }
+  }
+
+  &__contacts {
+    margin-bottom: 100px;
+    max-width: 520px;
+
+  }
+
+  &__phone {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 131%;
+    color: #EE7326;
+    margin-bottom: 30px;
+
+    @include media-down(xl){
+      font-size: 50px;
+      line-height: 126%;
+    }
+  }
+
+  &__address {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  &__mail {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+}
+
+
+
+.footer {
+  background-color: #131313;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__cult {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #FFFFFF;
+    opacity: 0.7;
+  }
+
+  &__policity {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136%;
+    text-decoration-line: underline;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  &__text {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 123%;
+    color: #FFFFFF;
+
+
+    @include media-down(xl) {
+      font-size: 24px;
+      line-height: 133%;
+    }
+  }
+}

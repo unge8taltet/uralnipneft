@@ -1,3 +1,53 @@
 .icon {
     display: inline-block;
+    position: relative;
+
+    &--cult{
+        width: 81px;
+        height: 17px;
+    }
+    &--years{
+        width: 21px;
+        height: 29px;
+        top: -9px;
+    }
+    &--conclusion{
+        width: 26px;
+        height: 30px;
+        top: -9px;
+    }
+    &--work{
+        width: 38px;
+        height: 27px;
+        top: -10px;
+    }
+    &--development{
+        width: 25px;
+        height: 28px;
+        top: -10px;
+    }
+    &--mark{
+        width: 32px;
+        height: 29px;
+        top: -10px;
+    }
+    &--documentation{
+        width: 46px;
+        height: 65px;
+    }
+    &--address{
+        width: 16px;
+        height: 20px;
+
+    }
+    &--mail{
+        width: 20px;
+        height: 14px;
+
+    }
+
+    &--logo {
+        width: 273px;
+        height: 90px;
+    }
 }

@@ -1,1 +1,11 @@
-import "@icons/logo.svg"
+ import "@icons/logo.svg"
+ import "@icons/conclusion.svg"
+ import "@icons/development.svg"
+ import "@icons/documentation.svg"
+ import "@icons/mark.svg"
+ import "@icons/work.svg"
+ import "@icons/years.svg"
+ import "@icons/address.svg"
+ import "@icons/mail.svg"
+ import "@icons/cult.svg"
+
